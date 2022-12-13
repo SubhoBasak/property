@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Website Name</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-2" href="/">Brand Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nvtg"
+          aria-controls="nvtg"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nvtg">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i data-feather="home" style="width: 14px;"></i>Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">
+                    <i data-feather="map" style="width: 14px;"></i>Projects</a>
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">
+                <i data-feather="info" style="width: 14px;"></i>About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <i data-feather="headphones" style="width: 14px;"></i>Contact Us</a>
+            </li>
+          </ul>
+          <a href="tel:+91 9876543210" class="call">
+            <i
+              data-feather="phone"
+              style="max-width: 16px; margin-right: 8px"
+            ></i
+            >+91 9876543210
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <video class="hero-vdo" autoplay loop muted>
+        <source src="/videos/bg-vdo.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-txt">
+        <h1>Welcome Message</h1>
+        <hr />
+        <p>A very warm welcome to our website</p>
+      </div>
+    </section>
+
+    <!-- <section class="secondary-hero">
+        <h2>Project Overview</h2>
+        <hr />
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eius dolores <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, suscipit. </strong>nesciunt laborum veritatis, dolorum repudiandae impedit beatae quo voluptas. Recusandae sed quisquam, adipisci dolores culpa aliquam alias placeat omnis ab cupiditate molestias, esse laborum natus, sint commodi unde. In eius laborum iure quidem, facilis dignissimos libero blanditiis officiis commodi nulla atque similique recusandae maiores! Dolores animi quasi veritatis vel accusantium ex quam quos dolorum? Iure modi alias quibusdam totam architecto deleniti unde debitis quo. Facere odio enim assumenda, beatae quas nihil aperiam iusto tenetur fugiat optio culpa porro aut, omnis<strong> 1000+</strong> labore blanditiis eveniet fuga repudiandae exercitationem provident in. Doloribus?</p>
+    </section> -->
+
+    <section class="rec-proj w-100 mt-5 py-5">
+        <h2 class="w-100 text-center mb-5">recent projects</h2>
+        <div class="container">
+            <div class="w-100 row">
+                <div class="col-lg-4 col-md-6 col-sm-12 proj-big-card">
+                    <div class="img-frame"><img src="https://picsum.photos/512" /></div>
+                    <h3>Lake City</h3>
+                    <p><i data-feather="map-pin" style="width: 16px; margin-right: 8px;"></i>Kolkata, New Town</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 proj-big-card">
+                    <div class="img-frame"><img src="https://picsum.photos/512" /></div>
+                    <h3>Sun City</h3>
+                    <p><i data-feather="map-pin" style="width: 16px; margin-right: 8px;"></i>Kolkata, New Town</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 proj-big-card">
+                    <div class="img-frame"><img src="https://picsum.photos/512" /></div>
+                    <h3>Green Land</h3>
+                    <p><i data-feather="map-pin" style="width: 16px; margin-right: 8px;"></i>Kolkata, New Town</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
